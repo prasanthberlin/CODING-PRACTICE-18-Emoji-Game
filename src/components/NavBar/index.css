@@ -1,0 +1,53 @@
+/* Write your code here. */
+.app-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.score-details-container {
+  display: flex;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: #ffffff33;
+}
+
+.app-emoji-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.score-app-detail {
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .app-logo-container {
+    margin-left: 50px;
+  }
+  .app-emoji-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .emoji-game-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .score-app-detail {
+    font-size: 20px;
+    margin-right: 35px;
+  }
+  .top-score-details {
+    font-size: 18px;
+    margin-right: 35px;
+  }
+  .score-details-container {
+    align-items: center;
+  }
+}
